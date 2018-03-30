@@ -4,7 +4,7 @@ import requests
 import re
 
 
-# 先抓取一页的数据,一般只能抓取一些静态网页的数据
+## 先抓取一页的数据,一般只能抓取一些静态网页的数据
 def get_one_page(url):
 
     headers = {
